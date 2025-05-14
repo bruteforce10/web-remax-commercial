@@ -18,7 +18,7 @@ const PropertyCard = forwardRef(({ property, isActive, onClick }, ref) => {
           {property.status}
         </div>
         <Image
-          src={property.image || "/placeholder.svg?height=400&width=600"}
+          src={property.image || "/place-holder.webp"}
           alt={property.title}
           width={400}
           height={250}
